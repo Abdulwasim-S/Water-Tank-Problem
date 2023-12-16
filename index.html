@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Water Tank Problem</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1 class="header">Water Tank Problem</h1>
+    <div class="form">
+        <input class="input-field" type="text" id="input-field" placeholder="Ex:0,4,0,0,0,6,0,6,4,0"/>
+        <small id="warning"></small>
+        <button class="btn" id="btn">Calculate</button>
+    </div>
+    <div class="bar-chart">
+        <div class="chartCard">
+            <div class="chartBox">
+                <h5>Input Chart :</h5>
+                <canvas id="input-chart"></canvas>
+            </div>
+        </div>
+        <div class="chartCard">
+            <div class="chartBox">
+                <h5>Output Chart : Total = <span id="total-units"></span> Units</h5>
+                <canvas id="output-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="footer"><i>@ Abdulwasim S 2023</i></div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
